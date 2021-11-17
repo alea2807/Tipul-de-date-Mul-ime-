@@ -1,0 +1,9 @@
+multimea={'A', 'B', 'C', 'D'}
+for i in multimea:
+    print(i)
+    for l in multimea:
+        print(l+i)
+        for m in multimea:
+            print(m+l+i)
+            for n in multimea:
+                print(m+n+l+i)
