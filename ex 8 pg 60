@@ -1,0 +1,9 @@
+A=set(input("Dati un sir de elemente ale multimii A:"))
+B=set(input("Dati un sir de elemente ale multimii B:"))
+#a-intersectia lor
+print("Intersectia multimilor A si B:", A.intersection(B))
+#b-reuniunea
+print("Reuniunea multimilor A si B:", A.union(B))
+#c-diferenta
+print("Diferenta multimilor A si B:", A.difference(B))
+print("Diferenta multimilor A si B:", B.difference(A))
